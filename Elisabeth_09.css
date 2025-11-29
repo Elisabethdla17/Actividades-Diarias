@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+header,
+footer {
+    background-color: #d03726;
+    text-align: center;
+    padding: 2rem;
+    color: aliceblue;
+}
+
+main {
+    background-color: #e67f21;
+    padding: 2rem;
+    flex: 1;
+}
+
+article {
+    background-color: #e5a77c;
+    padding: 2rem;
+    border-radius: 2.5rem;
+}
+
+section {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+section * {
+    border-radius: 2.5rem;
+}
+
+section img {
+    /*1 crece 1 Encoge y 70% del tamaño*/
+    flex: 1;
+    max-width: 260px;
+    padding: 2rem;
+}
+
+aside {
+    background-color: #f1d249;
+    flex: 1;
+    max-width: 260px;
+    padding: 2rem;
+
+}

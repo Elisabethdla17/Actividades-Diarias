@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    cursor: url("./Imagenes/cursor\ \(2\).cur"),auto;
+}
+header {
+    background-image: linear-gradient(to right, rgb(246, 159, 155), rgb(126, 191, 180), rgb(255, 225, 43));
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: -5px 5px 5px rgb(186, 220, 138);
+    text-shadow: 2px 2px 2px rgb(229, 100, 58);
+    color: white;
+}
+
+body {
+    background-image: url(./Imagenes/chispas.jpg);
+}
+
+article {
+    background-color: rgb(255, 207, 106);
+    padding: 2rem;
+    border-radius: 2.5rem;
+    box-shadow: 10px 10px 20px rgb(243, 118, 116);
+    cursor: url("./Imagenes/cursor.cur"),auto;
+}
+
+section {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+section * {
+    border-radius: 2.5rem;
+    border-style: hidden;
+    color: rgb(253, 254, 244);
+    text-shadow: rgb(148, 113, 130) 2px 2px 2px;
+}
+
+.menu {
+    border-style: double violet 1px;
+    border-radius: 30px;
+    padding: 20px;
+    background-image: linear-gradient(to right, white, rgb(148, 92, 119));
+    flex: 1;
+    max-width: 260px;
+    width: 80%;
+    cursor: url("./Imagenes/cursor\ \(2\).cur"),auto;
+}
+
+.sublista {
+    list-style-type: square;
+}
+
+.texto {
+    background-image: linear-gradient(to right, rgb(157, 98, 82), rgb(242, 160, 156));
+    border: 3px white;
+    border-style: dashed;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    cursor: url("./Imagenes/cursor.cur"),auto;
+}
+
+.texto2 {
+    background-image: radial-gradient(rgb(249, 150, 150), rgb(129, 220, 228));
+    border: 3px white;
+    border-style: dashed;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    cursor: url("./Imagenes/cursor\ \(1\).cur"),auto;
+}
+
+.texto3 {
+    background-image: radial-gradient(rgb(240, 175, 59), rgb(176, 217, 139));
+    border: 3px white;
+    border-style: dashed;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    cursor: url("./Imagenes/cursor\ \(1\).cur"),auto;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(75, 3, 53);
+    text-shadow: white 2px 2px 2px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.bloque-final {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    border: 3px dashed white;
+    background-image: linear-gradient(to right, rgba(157, 98, 82, 0.85), rgba(242, 160, 156, 0.85));
+    background-size: cover;
+    background-position: center;
+    cursor: url("./Imagenes/cursor\ \(2\).cur"),auto;
+    color: white;
+    text-shadow: rgb(148, 113, 130) 2px 2px 2px;
+    box-shadow: 10px 10px 20px rgb(243, 118, 116);
+}
+
+.final-texto {
+    flex: 1;
+}
+
+.final-texto h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(253, 254, 244);
+}
+
+.final-imagen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.final-imagen img {
+    width: 80%;
+    max-width: 260px;
+    border-radius: 20px;
+}
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
+     background-image: linear-gradient(to right, rgb(157, 98, 82), rgb(242, 160, 156));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

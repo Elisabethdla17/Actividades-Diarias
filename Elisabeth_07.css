@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: large;
+    margin: 25px;
+    background-color: rgba(161, 238, 212, 0.377);
+}
+
+h1{
+    background-color: rgb(57, 95, 179);
+    color: beige;
+    border-radius: 20px;
+    padding: 9px;
+    margin: 5px;
+    border: double;
+    text-align: center;
+    text-shadow: rgb(170, 138, 138) 2px 2px 2px;
+    
+}
+
+h2 {
+    color: #6f92d4;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2px;
+    padding: 6px;
+    border-style: outset;
+    height: auto;
+    width: 60%;
+    
+}
+
+.componentes li {
+    list-style: none;
+    padding-left: 40px;
+    margin: 10px 0;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.cpu {
+    background-image: url("./Imagenes/CPU.jpg");
+}
+
+.placabase {
+    background-image: url("./Imagenes/Placabase.jpg");
+}
+
+.ram {
+    background-image: url("./Imagenes/RAM.jpg");
+}
+
+.almacenamiento {
+    background-image: url("./Imagenes/SSD.jpg");
+}
+
+.discoduro {
+    background-image: url("./Imagenes/HDD.jpeg");
+}
+
+.fuentedealimentacion {
+    background-image: url("./Imagenes/Fuente.jpg");
+}
+
+.refrigeracion {
+    background-image: url("./Imagenes/refrigeracion.jpg");
+}
+
+.torre {
+    background-image: url("./Imagenes/Torre.jpg");
+}
+
+.conectividad {
+    background-image: url("./Imagenes/WIFI.jpg");
+}
+
+.gpu {
+    background-image: url("./Imagenes/GPU.jpg");
+}
+
+.componentes ul li {
+    list-style: circle;
+    margin-left: 20px;
+    padding-left: 0;
+    background: none;
+}
+
+
+.modulo {
+    margin-left: 30px;
+}
+
+.sublista {
+    list-style-type: square;
+}
+
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+}

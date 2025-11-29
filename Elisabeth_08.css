@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(46, 138, 34, 0.822);
+    border-style: groove;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 50px;
+    grid-gap: 10px;
+}
+.grid img{
+    width: 80%;
+    margin: auto;
+    border: 3px ridge rgba(94, 221, 158, 0.678);
+    float: left;
+}
+body{
+    background-image: url("./Imagenes/cieloazul.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    transition: all 0.5s linear;
+    
+}
+img:hover{
+    transform: scale(0.6);
+    border-radius: 20px;
+
+} 
+
+header{
+    transition: all 0.5s linear;
+    
+}
+
+header:hover{
+    transform: scale(0.6);
+    border-radius: 20px;
+
+} 

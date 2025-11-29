@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Elisabeth_15.css">
+</head>
+<body>
+    <h1>Gestión de Incidencias Técnicas</h1>
+
+    <form action="enviar.php" method="get" target="_blank">
+
+        <!-- DATOS PERSONALES -->
+        <fieldset class="datos_iniciales">
+            <legend>Datos Personales</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+        </fieldset>
+
+        <!-- OTROS INPUTS -->
+        <fieldset class="inputs">
+            <legend>Detalles del Informe</legend>
+
+            <label for="color">Color identificativo:</label>
+            <input type="color" id="color" name="color">
+
+            <label for="archivo">Adjuntar archivo:</label>
+            <input type="file" id="archivo" name="archivo">
+
+            <label for="pwd">Contraseña del equipo:</label>
+            <input type="password" id="pwd" name="pwd">
+
+            <label for="rango">Nivel de daño (0–100):</label>
+            <input type="range" id="rango" name="rango" min="0" max="100" value="50">
+
+            <label for="prioridad">Prioridad (0–100):</label>
+            <input type="number" id="prioridad" name="prioridad" min="0" max="100" step="10" value="30">
+        </fieldset>
+
+        <!-- RADIO Y CHECKBOX -->
+        <fieldset class="seleccion">
+            <legend>Tipo de incidencia</legend>
+
+            <label>Tipo:</label>
+            <label for="hardware">Hardware</label>
+            <input type="radio" id="hardware" name="tipo" value="hardware">
+
+            <label for="software">Software</label>
+            <input type="radio" id="software" name="tipo" value="software">
+
+            <br><br>
+
+            <label>Afecta a:</label>
+            <label for="red">Red</label>
+            <input type="checkbox" id="red" name="afecta[]" value="red">
+
+            <label for="internet">Internet</label>
+            <input type="checkbox" id="internet" name="afecta[]" value="internet">
+
+            <label for="energia">Energía</label>
+            <input type="checkbox" id="energia" name="afecta[]" value="energia">
+        </fieldset>
+
+        <!-- TEXTO + SELECT SIMPLE Y MULTIPLE -->
+        <fieldset class="otros">
+            <legend>Información adicional</legend>
+
+            <label for="descripcion">Descripción detallada:</label>
+            <textarea id="descripcion" name="descripcion" rows="6" cols="40"
+                placeholder="Describe la incidencia con detalle"></textarea>
+
+            <label for="aula">Aula implicada:</label>
+            <select name="aula" id="aula">
+                <option value="informatica">Informática</option>
+                <option value="Artes">Artes</option>
+                <option value="laboratorio">Laboratorio</option>
+            </select>
+
+            <label for="equipos">Equipos afectados (múltiple):</label>
+            <select name="equipos[]" id="equipos" multiple size="4">
+                <option value="pc1">PC 1</option>
+                <option value="pc2">PC 2</option>
+                <option value="proyector">Proyector</option>
+                <option value="impresora">Impresora</option>
+            </select>
+        </fieldset>
+
+        <!-- BOTONES -->
+        <button type="button">Botón normal</button>
+        <input type="submit" value="Enviar incidencia">
+    </form>
+    <br>
+     <footer>Elisabeth Larios 2025@</footer>
+</body>
+</html>
